@@ -44,21 +44,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-## INSTALLATION
-## frontend
-npx create-react-app frontend --template typescript
-cd frontend
-npm install axios
-
-
-## backend
-mkdir backend
-cd backend
-npm init -y
-npm install express multer cors
-npm install --save-dev typescript @types/node @types/express @types/multer
-npx tsc --init
-npm install --save-dev jest supertest @types/jest @types/supertest
